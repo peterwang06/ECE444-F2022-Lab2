@@ -10,7 +10,7 @@ def home():
 
 @app.route('/user/<name>')
 def myuser(name):
-    return render_template('user2.html',name=name)
+    return render_template('user.html',name=name)
 
 @app.errorhandler(404)
 def four_oh_four(e):
