@@ -11,3 +11,11 @@ def home():
 @app.route('/user/<name>')
 def myuser(name):
     return render_template('user2.html',name=name)
+
+@app.errorhandler(404)
+def four_oh_four(e):
+    return render_template('404.html'), 404
+
+@app.errorhandler(500)
+def uh_oh(e):
+    return render_template('500.html'), 500
