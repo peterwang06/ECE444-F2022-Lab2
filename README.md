@@ -13,3 +13,10 @@ Activity 2:
 Activity 3:
 
 ![](images/Activity3.png)
+
+Activity 4:
+
+![](images/Activity4.png)
+![](images/Activity4a.png)
+![](images/Activity4b.png)
+![](images/Activity4c.png)
